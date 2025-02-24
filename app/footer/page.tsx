@@ -29,10 +29,10 @@ export default function Footer() {
 
         {/* 🌟 Info Website */}
         <div className="text-center">
-          <h4 className="text-2xl font-bold mb-2">🌟 Raihand Fadhillah 🌟</h4>
+          <h4 className="text-2xl font-bold mb-2">Raihand Fadhillah</h4>
           <p className="text-sm">
-            Website Portfolio dengan passion di Web Development, UI/UX Design,
-            dan Software Engineering. Terima kasih telah berkunjung! ✨
+            Portfolio Website dengan ketertarikan pada Web Development, UI/UX
+            Design, dan Software Engineering. Senang Anda berkunjung!
           </p>
         </div>
 

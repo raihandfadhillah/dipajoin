@@ -54,11 +54,9 @@ export default function AboutSection() {
           <div className="flex flex-col">
             <h1 className="text-3xl font-bold mb-2">Tentang Saya</h1>
             <p className="text-lg max-w-md">
-              Mahasiswa Sistem Informasi dengan passion dalam pengembangan web,
-              analisis data, Pasar Modal, Investasi Saham, dan manajemen proyek.
-              Saya memulai karir saya dalam Investasi ketika saya berumur 10
-              tahun itu juga yang membuat saya memiliki saham di NVidia dan
-              Apple sebanyak 70%.
+              Mahasiswa Sistem Informasi dengan ketertarikan pada pengembangan
+              web, analisis data, pasar modal, investasi saham, dan manajemen
+              proyek.
             </p>
           </div>
         </div>

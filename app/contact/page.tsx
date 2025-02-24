@@ -14,7 +14,7 @@ export default function ContactSection() {
     {
       icon: <Phone size={36} className="text-black" />,
       title: "Telepon",
-      detail: "+62 813-4630-1871",
+      detail: "+62 81346301871",
       gradient: "from-blue-500 to-blue-700",
     },
     {

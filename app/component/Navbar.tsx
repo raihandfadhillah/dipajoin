@@ -16,7 +16,7 @@ export default function Navbar() {
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="flex justify-between h-16 items-center">
           <div className="flex items-center space-x-4">
-            <span className="text-2xl font-bold">Raihand F CV</span>
+            <span className="text-2xl font-bold">Raihand F </span>
           </div>
           <div className="hidden md:flex space-x-8">
             <Link href="/about" className="hover:text-gray-300">

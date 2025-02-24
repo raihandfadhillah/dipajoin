@@ -1,6 +1,7 @@
 "use client";
 
 import React from "react";
+import Image from "next/image";
 import { Globe, Database, Palette, Shield, Laptop } from "lucide-react";
 
 export default function SkillSection() {
@@ -34,32 +35,49 @@ export default function SkillSection() {
   ];
 
   return (
-    <div className="p-6 bg-gray-50 min-h-screen">
-      <h2 className="text-2xl font-bold text-center mb-6 text-black">
-        My Skills
-      </h2>
-      <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6">
-        {skills.map((skill, index) => (
-          <div
-            key={index}
-            className="bg-white rounded-2xl shadow-lg p-5 flex flex-col items-center text-center hover:scale-105 transition-transform duration-300"
-          >
-            <div className="mb-4">{skill.icon}</div>
-            <h3 className="text-xl font-semibold mb-2 text-black">
-              {skill.name}
-            </h3>
-            <p className="text-gray-600 text-sm">{skill.description}</p>
-          </div>
-        ))}
+    <div className="min-h-screen">
+      <div className="bg-blue-700 p-6 text-white text-center">
+        <div className="w-32 h-32 mx-auto rounded-full overflow-hidden border-4 border-white">
+          <Image
+            src="/raihand.jpeg"
+            alt="Profile Picture"
+            width={128}
+            height={128}
+            className="object-cover w-full h-full"
+          />
+        </div>
+        <h1 className="text-2xl font-bold mt-4">Raihand Fadhillah</h1>
+        <p className="text-lg opacity-90">
+          Mahasiswa Sistem Informasi Semester 4 di Masoem University
+        </p>
       </div>
+      <div className="p-6 bg-gray-50 ">
+        <h2 className="text-2xl font-bold text-center mb-6 text-black">
+          My Skills
+        </h2>
+        <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6">
+          {skills.map((skill, index) => (
+            <div
+              key={index}
+              className="bg-white rounded-2xl shadow-lg p-5 flex flex-col items-center text-center hover:scale-105 transition-transform duration-300"
+            >
+              <div className="mb-4">{skill.icon}</div>
+              <h3 className="text-xl font-semibold mb-2 text-black">
+                {skill.name}
+              </h3>
+              <p className="text-gray-600 text-sm">{skill.description}</p>
+            </div>
+          ))}
+        </div>
 
-      <style jsx>{`
-        @media (max-width: 360px) {
-          .grid {
-            grid-template-columns: 1fr;
+        <style jsx>{`
+          @media (max-width: 360px) {
+            .grid {
+              grid-template-columns: 1fr;
+            }
           }
-        }
-      `}</style>
+        `}</style>
+      </div>
     </div>
   );
 }

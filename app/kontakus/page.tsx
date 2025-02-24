@@ -8,13 +8,13 @@ export default function ContactSection() {
     {
       icon: <Mail size={36} className="text-black" />,
       title: "Email",
-      detail: "fadhillah121905@gmail.com",
+      detail: "Fadhillah121905@gmail.com",
       gradient: "from-purple-500 to-purple-700",
     },
     {
       icon: <Phone size={36} className="text-black" />,
       title: "Telepon",
-      detail: "+62 813-4630-1871",
+      detail: "+62 81346301871",
       gradient: "from-blue-500 to-blue-700",
     },
     {
